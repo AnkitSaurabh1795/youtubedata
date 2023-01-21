@@ -62,7 +62,7 @@ public class YouTubeDataService {
         }
     }
 
-
+    //to trigger the scheduler every 10 seconds
     @Scheduled(fixedRate = 10000)
     public void scheduledTask1() throws IOException, GeneralSecurityException {
         String searchQuery = searchQueryConfig.getQuery();
@@ -115,13 +115,6 @@ public class YouTubeDataService {
             System.out.println(video);
             insertDao.insertVideo(video);
             // Create a Video entity and save it to the database
-//            VideoEntity videoEntity = new VideoEntity();
-//            videoEntity.setTitle(video.getSnippet().getTitle());
-//            videoEntity.setDescription(video.getSnippet().getDescription());
-//            videoEntity.setPublishingDateTime(video.getSnippet().getPublishedAt().toInstant());
-//            videoEntity.setThumbnails(video.getSnippet().getThumbnails());
-//            videoEntity.setStatistics(video.getStatistics());
-//            videoRepository.save(videoEntity);
         }
 
     }
