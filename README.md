@@ -1,5 +1,5 @@
 
-oauth2.0 &amp; youtube google api used
+oauth2.0 &amp; youtube google api and scheduled job used to store data
 # youtubedata
 1. This application is to store you tube video data
 2. mongo db is used to store data
