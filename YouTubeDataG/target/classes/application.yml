@@ -1,0 +1,11 @@
+mongo-config:
+  uri: 'mongodb://localhost:27017'
+  dbname: 'youtubedata'
+
+youtube-apiconfig:
+  clientsecrets: 'client_secret_630239214701-8ontludbj7f6tvd3v0dhrtuf736jut9r.apps.googleusercontent.com.json'
+  scopes: 'https://www.googleapis.com/auth/youtube.force-ssl'
+
+search-criteria:
+  query: 'how to play cricket'
+  publishedafter: '2023-01-01T00:00:00Z'

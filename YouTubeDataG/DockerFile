@@ -1,0 +1,3 @@
+FROM openjdk:11
+COPY target/YouTubeDataG-1.0-SNAPSHOT.jar YouTubeDataG-1.0-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "YouTubeDataG-1.0-SNAPSHOT.jar"]
