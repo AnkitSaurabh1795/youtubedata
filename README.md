@@ -9,6 +9,7 @@ oauth2.0 &amp; youtube google api and scheduled job used to store data
 6. Mention SCOPES,APPLICATION_NAME, AUTHORIZATION_USER in Constant.java
 7. update MONGO_URI to path mongodb in my case it is mongodb://localhost:27017
 8. it will create db with name youtubedata and store doc in collection video
+9. For callback authorisation need to add callback_uri in google console's Authorised redirect URIs
 
 you can change search-criteria in application.yml  query and publishedafter
 bydefault it will be as below:
